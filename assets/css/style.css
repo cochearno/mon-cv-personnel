@@ -24,11 +24,11 @@ header img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 150px;
-  height: 150px;
+  height: 175px;
+  width: 125px;
+  border-radius: 50%;
   flex-basis: 15%;
   margin-left: 70px;
-  border-radius: 50%;
   border-color: #ffffff;
   border-style: solid;
   justify-content: end;
