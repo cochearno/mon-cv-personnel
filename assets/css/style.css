@@ -792,3 +792,124 @@ footer p {
     margin: 5px auto;
   }
 }
+/* TABLETTE (≤ 1024px) */
+@media screen and (max-width: 1024px) {
+  body {
+    max-width: 95%;
+    height: auto;
+    padding: 10px;
+  }
+
+  header {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    text-align: center;
+  }
+
+  .bloc {
+    justify-content: center;
+  }
+
+  .mail,
+  .tel,
+  .adress,
+  .drive {
+    flex-basis: 100%;
+    justify-content: center;
+    margin: 5px 0;
+    background-position: right 10px center;
+  }
+
+  .bloc1,
+  .bloc2 {
+    float: none;
+    width: 100%;
+    padding-left: 0;
+  }
+}
+
+/* MOBILE (≤ 768px) */
+@media screen and (max-width: 768px) {
+  header img {
+    margin-left: 0;
+  }
+
+  h1,
+  h2 {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .mail,
+  .tel,
+  .adress,
+  .drive {
+    background-position: left center;
+    background-size: 1.2em;
+    padding-left: 2em;
+    text-align: left;
+  }
+
+  .lang1,
+  .lang3,
+  .lang5,
+  .lang2,
+  .lang4,
+  .lang6 {
+    flex-basis: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .master1,
+  .bts1,
+  .titre1,
+  .bac1,
+  .stage1,
+  .stage2,
+  .stage3,
+  .exp1,
+  .exp2,
+  .date1,
+  .date2,
+  .date3,
+  .date4,
+  .date5,
+  .date6,
+  .date7,
+  .date8,
+  .date9 {
+    flex-basis: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .lieu,
+  .lieu1,
+  .lieu2,
+  .lieu3,
+  .lieu4,
+  .lieu5,
+  .lieu6,
+  .lieu7 {
+    flex-basis: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .html span,
+  .css span,
+  .js span,
+  .php span {
+    width: 100%;
+  }
+
+  .competence .html img,
+  .competence .css img,
+  .competence .js img,
+  .competence .php img {
+    margin-right: 5px;
+  }
+}
