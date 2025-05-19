@@ -778,20 +778,6 @@ footer p {
 .fas {
   color: goldenrod;
 }
-@media screen and (max-width: 600px) {
-  .header {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .idphoto {
-    max-width: 100px;
-  }
-  .lien a {
-    display: block;
-    margin: 5px auto;
-  }
-}
 /* TABLETTE (≤ 1024px) */
 @media screen and (max-width: 1024px) {
   body {
