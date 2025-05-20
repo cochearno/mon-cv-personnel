@@ -167,7 +167,7 @@ h2 {
   flex-direction: column;
   float: left;
   width: 30%;
-  min-height: 1000px;
+  min-height: 1100px;
   height: 100%;
   padding-left: 15px;
   background-color: #e3e3e3;
@@ -520,7 +520,7 @@ ul span {
 .lyon a {
   text-decoration: none;
 }
-.lyon a:hover {
+.lyon:hover {
   cursor: pointer;
 }
 .stage1 {
@@ -705,61 +705,30 @@ footer {
   height: 7%;
   background-color: #56638a;
 }
-.insta {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 45%;
-  justify-content: end;
-  align-items: center;
-}
-.insta a img {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  flex-basis: 30%;
-  width: 25px;
-  height: 35%;
-  justify-content: end;
-  margin-top: 20px;
-  margin-left: 50px;
-}
 .linkedin {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 6%;
+  width: 100%;
+  max-width: 572px;
   justify-content: end;
   align-items: center;
+  margin-right: 10px;
 }
-.linkedin a img {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  flex-basis: 35%;
-  width: 25px;
-  height: 35%;
-  justify-content: end;
-  margin-top: 20px;
-  margin-right: 20px;
+.linkedin img {
+  width: 30px;
 }
 .github {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 10%;
+  width: 100%;
+  max-width: 572px;
   justify-content: start;
   align-items: center;
 }
-.github a img {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  flex-basis: 30%;
-  width: 25px;
-  height: 35%;
-  justify-content: start;
-  margin-top: 20px;
+.github img {
+  width: 30px;
 }
 footer p {
   display: flex;
@@ -767,7 +736,7 @@ footer p {
   flex-wrap: wrap;
   justify-content: end;
   align-items: center;
-  flex-basis: 35%;
+  flex-basis: 50%;
   margin-top: 0px;
   margin-left: 245px;
   margin-right: 0px;
@@ -812,6 +781,13 @@ footer p {
     float: none;
     width: 100%;
     padding-left: 0;
+  }
+  .linkedin,
+  .github {
+    flex-basis: 70%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30px;
   }
 }
 
@@ -866,7 +842,8 @@ footer p {
   .date6,
   .date7,
   .date8,
-  .date9 {
+  .date9,
+  .lyon a {
     flex-basis: 100%;
     justify-content: center;
     text-align: center;
@@ -879,7 +856,8 @@ footer p {
   .lieu4,
   .lieu5,
   .lieu6,
-  .lieu7 {
+  .lieu7,
+  .lieu8 {
     flex-basis: 100%;
     justify-content: center;
     text-align: center;
@@ -897,5 +875,13 @@ footer p {
   .competence .js img,
   .competence .php img {
     margin-right: 5px;
+  }
+
+  .linkedin,
+  .github {
+    flex-basis: 40%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30px;
   }
 }
